@@ -1,0 +1,682 @@
+
+/* header */
+/* #main-header .navbar{
+	height: 100px;
+}		
+
+#main-header .navbar-nav .active a{
+	color: #ff5050;
+}
+
+#main-header .navbar-nav .active{
+	color: #ff5050; 
+}
+
+#main-header .navbar-brand{
+	  font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 5px; 
+    color: white;
+    margin-right: 80px;
+    text-shadow: 3px 3px #ff8080;
+    padding: 0 2rem 0 5rem;
+}
+
+#main-header .parent-link{ 
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 4px; 
+    font: normal 500;
+    text-transform: uppercase;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+#main-header .parent-link:hover{ 
+    font-size: 18px;
+    font-weight: 900;
+    color: #ff5050;
+    letter-spacing: 4px; 
+    font: normal 500;
+    text-transform: uppercase;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+#main-header .child-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #ff5050;
+    font-weight: 900;
+    letter-spacing: 4px; 
+} 
+
+#main-header .child-link:hover{ 
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    background-color: #ff5050;
+    letter-spacing: 4px; 
+    font: normal 500;
+    text-transform: uppercase;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+#main-header .navbar-toggler i{
+	color: black;
+} */
+@media screen and (max-width: 580px){
+  body {font-size:1rem;} 
+  .navbar {
+    font-size:15px ;
+
+    text-align: center;
+  }
+  .navbar-brand{
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+  
+}
+.navbar{
+	padding-top: 20px;
+	padding-bottom: 20px;
+  box-shadow: 10px 10px 10px #d7d7c1;
+ 
+}
+
+nav .navbar-nav .active a{
+	color: #ff5050;
+	/* text-shadow: 2px 2px #b3ffb3; */
+}
+
+nav .navbar-nav .active{
+	color:#ff5050;
+	/* text-shadow: 2px 2px #b3ffb3; */
+}
+
+nav .navbar-brand{
+	  font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px; 
+    color: black;
+    text-shadow: 2px 2px #ff8080;
+    padding-left: 2rem;
+}
+
+nav .parent-link{ 
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 4px; 
+    font: normal 500;
+    text-shadow: 2px 2px #ebebe0;
+    text-transform: uppercase;
+    margin:0 auto;
+    text-align: center;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+nav .parent-link:hover{ 
+   
+    /* color: #4d3319; */
+    color:#ff5050;
+  
+}
+
+nav .child-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    /* text-shadow: 2px 2px #ebebe0; */
+    font-weight: 700;
+    letter-spacing: 4px; 
+} 
+
+nav .child-link:hover{ 
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff5050;
+    letter-spacing: 4px; 
+    font: normal 500;
+    /* text-shadow: 2px 2px #cd9965; */
+    text-transform: uppercase;
+}
+
+nav .navbar-toggler i{
+	color: black;
+	animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+nav .contact a{
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: #ff5050;
+}
+
+nav .contact a:hover{
+    background-color: white;
+  /*  border: 2px solid #ff5050; */
+    color: #ff5050;
+}
+
+.carousel-content1 h3{
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
+  font-family: 'Charmonman', cursive;
+  z-index: 20;
+  color: white;
+  font-size: 6rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content2 h3{
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  font-family: 'Charmonman', cursive;
+  z-index: 20;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-content3 h3{
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  font-family: 'Charmonman', cursive;
+  z-index: 20;
+  color: white;
+  font-size: 6rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+#special-menu{
+    margin-top:10%;
+}
+
+#special-menu .single-menu-div{
+    transition:all 0.3s linear; 
+    padding: 10px;
+}
+#special-menu .single-menu-div:hover{
+    transform:scale(1.1);
+}
+#special-menu .single-menu-div img{
+    /* border-radius:10%; */
+}
+#special-menu h2{
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:80px;
+}
+
+#aboutus, #recipes, #services, #contactus{
+    padding-top: 25%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+#testimonials{
+    padding-top: 6%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+#aboutus h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    letter-spacing: 10px;
+}
+
+#about_restaurant{
+    margin-top: 35%;
+}
+
+/* @media (max-width:500px){
+  #aboutus h1{
+    font-weight:700;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    color: white;
+    letter-spacing: 3px;
+}
+} */
+#about_restaurant div a img{
+    border-radius:20px;
+}
+
+#about_restaurant h1{
+    color: black;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#about_restaurant p{
+    margin-top: 150px;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    color:#ff5050;
+    text-align: center;
+}
+
+
+#features{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#features h5{
+    font-size: 30px;
+    color: #ff5050;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+#features p{
+    color: black;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#features p i{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: #ff5050;
+    border-radius:50%;
+}
+
+#restaurant{
+    margin-top:10%;
+    width: 100%;
+}
+#restaurant h2{
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+#restaurant .single-rest-div{
+    transition:all 0.3s linear;
+    border-radius:50px;
+}
+#restaurant .single-rest-div img{
+  border-radius:20px;
+}
+#restaurant .single-rest-div:hover{
+    transform:scale(1.1);
+}
+#restaurant p{
+    margin-top:50px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    color:#ff5050;
+}
+#partners{
+    margin-top: 200px;
+}
+
+#partners h2{
+    color: black;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#partners .container{
+    border: 2px solid #d7d7c1;
+    box-shadow: 10px 10px 8px #e1e1d0;
+    padding: 30px;
+}
+@media(max-width: 500px){}
+
+#partners{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media(max-width: 1200px){
+    
+    #features div div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 50px;
+    }
+
+    
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #ff5050;
+}
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.footer div span, p, a{
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+}
+.footer a i{
+    font-size: 23px;
+    padding:10px;
+    color: white;
+}
+
+.footer .text{
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+}
+/* Animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.5s;
+}
+
+#recipes h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    letter-spacing: 10px;
+}
+
+#services h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 10px;
+}
+
+#testimonials h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    margin-top: 40px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+#contactus h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 10px;
+}
+
+#serviceslist{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 35%;
+    margin-bottom: 120px;
+}
+
+#serviceslist h5{
+    font-size: 30px;
+    color: #ff5050;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+#serviceslist p{
+    color: black;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#serviceslist p i{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-color: #ff5050;
+    border-radius:50%;
+}
+
+#serviceslist .secondrow{
+  margin-top: 100px;
+}
+
+
+
+/* Our Team Styles */
+#chefs{
+  margin-top: 200px;
+}
+@media (max-width:586px){
+  #chefs{
+    margin-top: 100px;
+  }
+
+}
+#chefs h2{
+    color: black;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+#chefs .row{
+  margin-top:80px;
+}
+#chefs .card{
+  border-color:#ffffff;
+}
+#chefs .card{
+  transition:all 0.3s linear;
+}
+#chefs .card:hover{
+  transform: scale(1.1);
+}
+#chefs .card .card-img-top{
+  border-radius:50%;  
+}
+#chefs .card .card-body .card-title{
+  font-size:28px;
+}
+#chefs .card .card-body .card-text{
+  font-size: 20px;
+  color: #ff5050;
+  letter-spacing: 2px;
+}
+
+
+/*Contact Styles*/
+#contactus h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 10px;
+}
+#contact{
+    margin-top:35rem;
+}
+
+#contact p{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  color:black; 
+  font-size: 30px;   
+}
+#contact h5{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  color:black; 
+  font-size: 35px;      
+}
+#contact h5,p{
+  margin-top: 20px;
+}
+
+#contact #contact-details{
+  border:2px solid #ff5050;
+  /* padding: 10px;  */
+  animation: 2s slideInFromRight; 
+}
+#contact #contact-details h6{ 
+    color:#ff5050;
+    font-size: 20px;
+}
+#contact #contact-details #office-address, #office-contact, #contact-email{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-size: 20px;
+}
+#contact #contact-details #contact-email{
+    margin-bottom: 25px;
+}
+#contact #location-map{
+  animation: 1s slideInFromLeft;  
+}
+#location-map iframe{
+  height: 450px;
+  width: 600px;
+}
+/*Testimonials Styles*/
+#testimonials{
+  margin-top: 200px;
+}
+#testimonials_boxes{
+  /* margin-top: 200px; */
+    margin-top:35rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#testimonials_boxes .card{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;      
+    border-radius: 20px;
+    box-shadow: 7px 7px #ff5050;
+    border: 2px solid black; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#testimonials_boxes .card:hover{
+    transform:scale(1.1);
+}
+
+#testimonials_boxes .card h5{
+    font-size: 30px;
+  /* color: black; */
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+#testimonials_boxes .card .card-text{
+    font-size: 23px;
+  color: #ff5050;
+  padding: 10px;
+}
+
+#testimonials_boxes .card .name{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+#testimonials_boxes .card img {
+  border-radius: 50%;
+}
+
+
+/*Our Recipes*/
+#recipes h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: white;
+    letter-spacing: 10px;
+}
+#our-recipes{
+    margin-top: 36rem;
+}
+#our-recipes .recipe-text{
+     padding:30px;
+}
+
+#our-recipes .no-gutters div{
+  padding: 10px;
+}
+
+#our-recipes .no-gutters h3{
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#our-recipes .no-gutters h6{
+  font-size: 18px; 
+}
+
+#our-recipes .no-gutters span{
+  font-size: 28px;
+  color: #ff5050; 
+  font-weight: 500;
+}
+
+#our-recipes h2{
+    color: black;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 80px;
+}
+@media (max-width:486px){
+  #location-map iframe{
+    height: 250px;
+    width: 300px;
+  }
+}
